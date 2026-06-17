@@ -215,7 +215,7 @@ Homepage: https://www.gnu.org/software/libc/
 Description: GNU C Library
 
 Package: glibc-runner
-Version: 2.0-4
+Version: 2.0-5
 Architecture: all
 Essential: yes
 Maintainer: @termux-pacman
@@ -223,11 +223,11 @@ Installed-Size: 92
 Depends: glibc, termux-exec-glibc, bash-glibc, bash, patchelf-glibc, binutils-glibc
 Recommends: coreutils-glibc, util-linux-glibc
 Suggests: strace-glibc
-Filename: pool/main/glibc-runner_2.0-4_all.deb
-Size: 3776
-MD5sum: 0466f953049c73fd57622bed0628dd69
-SHA1: 0ca65a41c07889a4b69f0bf23c9a26aa81c68a30
-SHA256: bfeaa5b3535a5252f505e2588b31310e683f7cb9d98ced485ad1e5a04de54322
+Filename: pool/main/glibc-runner_2.0-5_all.deb
+Size: 3784
+MD5sum: e32e0d6f5b1907a0490e4abae1c333c2
+SHA1: fc4cc048d397dcbddfd7ce186744eb8dae9f3a4e
+SHA256: c88b2adc378f4b5b5337e6fd186fdd371394997e9dc9ee4e34cedbadb869f3ca
 Homepage: https://github.com/termux-pacman/glibc-packages/wiki/About-glibc-runner-(grun)
 Description: Tool for convenient use of Glibc
 
