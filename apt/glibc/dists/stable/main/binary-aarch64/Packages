@@ -1,0 +1,1003 @@
+Package: attr-glibc
+Version: 2.5.2
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 496
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/attr-glibc_2.5.2_aarch64.deb
+Size: 58644
+MD5sum: e33a3edd392b77abdf9fd2700c42e94e
+SHA1: 52f20b56df8f880232e5f6832bc88606f89e4973
+SHA256: 1623181e6cef382afd572dafba6c0eb1d62f1b56bcc67fa947b05b31fc483b27
+Homepage: http://savannah.nongnu.org/projects/attr/
+Description: Utilities for manipulating filesystem extended attributes
+
+Package: bash-completion-glibc
+Version: 2.16.0
+Architecture: all
+Maintainer: @termux-pacman
+Installed-Size: 2616
+Depends: bash-glibc
+Filename: pool/main/bash-completion-glibc_2.16.0_all.deb
+Size: 184008
+MD5sum: 982be2035574e42ed1ac8392a3a255a4
+SHA1: af242fdff16e55babc654ce668ba992a67933672
+SHA256: dab3115d5f89c284bd45200c97e81ff5b4fe8e3513605c1bc8e153f11752e336
+Homepage: https://github.com/scop/bash-completion
+Description: Programmable completion for the bash shell
+
+Package: bash-glibc
+Version: 5.2.37
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 6988
+Depends: readline-glibc, ncurses-glibc
+Recommends: bash-completion-glibc
+Filename: pool/main/bash-glibc_5.2.37_aarch64.deb
+Size: 1014504
+MD5sum: b23d4a7672791a9d02cc4c4f3062416b
+SHA1: c8447466423acd0893eec46ca66db207558fc850
+SHA256: fe27d876aafe6dbcea92d89ed52b6a3847b12ba4cc4268fbcac5dc01aa76940c
+Homepage: https://www.gnu.org/software/bash/
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+
+Package: binutils-glibc
+Version: 2.44
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 10484
+Depends: libbz2-glibc, libdebuginfod-glibc, binutils-libs-glibc (= 2.44)
+Filename: pool/main/binutils-glibc_2.44_aarch64.deb
+Size: 1600296
+MD5sum: f0733ed1f4cfe43e101e936f42381d53
+SHA1: 98944690b6f63c8c478ca469ed50b8d379790648
+SHA256: ef4fd07d745a9971bf011568666da7e8b0f6e651350cfc61328a7cb94d1f0708
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils (metapackage)
+
+Package: binutils-libs-glibc
+Version: 2.44
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 21860
+Depends: glibc, libjansson-glibc, libelf-glibc, zlib-glibc, zstd-glibc
+Filename: pool/main/binutils-libs-glibc_2.44_aarch64.deb
+Size: 2417812
+MD5sum: 4550e98b5e6ac03fffc6197d84233bc8
+SHA1: 6f3ee708acc204894d6fc087f738a21c9255283f
+SHA256: 976a7e9d0138feec080e3716efcacb59d14fcd6ab3ef30fa1ff1390c87f5ef47
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils libraries
+
+Package: brotli-glibc
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1312
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/brotli-glibc_1.1.0_aarch64.deb
+Size: 391228
+MD5sum: 5bba344b77d3b5200d264cd0fd9761aa
+SHA1: f6d70408d0299b20579d2a4f71afec771c451c80
+SHA256: 28ea6b4a2acd60d646bfbcfc2ba74de8b1a79e7a842b5c9df02d03a51892b425
+Homepage: https://github.com/google/brotli
+Description: lossless compression algorithm and format (command line utility)
+
+Package: bsdtar-glibc
+Version: 3.7.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 448
+Depends: libarchive-glibc (= 3.7.7)
+Filename: pool/main/bsdtar-glibc_3.7.7_aarch64.deb
+Size: 67784
+MD5sum: ee8e32b6a30aafc010e914191374e8de
+SHA1: d49f0829c52377465ec65cf7c5f5694814557fd5
+SHA256: abe6ed2ef0aedaad9bf5eb77e08dc8b3d0451d2666b7593927113036784efb5f
+Homepage: https://www.libarchive.org/
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: bzip2-glibc
+Version: 1.0.8-3
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 232
+Depends: libbz2-glibc (= 1.0.8-3)
+Filename: pool/main/bzip2-glibc_1.0.8-3_aarch64.deb
+Size: 32656
+MD5sum: 8f34f0e860a3fd6a5739877a0f416616
+SHA1: 6d19732ce6c839150f63a4b8d011e98ad98dc1f3
+SHA256: d7a502bff11f0fa4b8724637c8b26baeeabbf903ace94676d46367e33ac02ba3
+Homepage: http://www.bzip.org/
+Description: Tools for working with bzip2 compression
+
+Package: ca-certificates-glibc
+Version: 2025.02.25
+Architecture: all
+Maintainer: @termux-pacman
+Installed-Size: 288
+Filename: pool/main/ca-certificates-glibc_2025.02.25_all.deb
+Size: 128052
+MD5sum: fedec117764be8d3dcfd509b749d4353
+SHA1: 5c315943f4829d7d9e74a70020a36f30f66dca4f
+SHA256: 494cf48938f751148ece8b062c8da6dfe62085cc98de2bf08411a4ad50e97a9c
+Homepage: https://src.fedoraproject.org/rpms/ca-certificates
+Description: Common CA certificates
+
+Package: curl-glibc
+Version: 8.12.1
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 404
+Depends: libcurl-glibc (= 8.12.1)
+Filename: pool/main/curl-glibc_8.12.1_aarch64.deb
+Size: 152224
+MD5sum: eca30b6d53b7bc981859f5143a25ebb6
+SHA1: 2e84bda5f5e5e9cde1e71842ad0c72917439d2ac
+SHA256: a8ef8e05be4f2b838deac2ee85a51af62e33a9de99e1bd360420120985c12ddb
+Homepage: https://curl.se/
+Description: Command line tool for transferring data with URL syntax
+
+Package: db-glibc
+Version: 18.1.40
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1056
+Depends: libdb-glibc (= 18.1.40)
+Filename: pool/main/db-glibc_18.1.40_aarch64.deb
+Size: 47156
+MD5sum: 9f3f1bb17d225df6284499f3e56c1666
+SHA1: 11d4c88038712b53500a171d7660280860424ba7
+SHA256: 837cf42ec948e07c9c662e68b327efac53d1b802753b6d83f07bbda5a2bfb4a6
+Homepage: https://www.oracle.com/database/berkeley-db
+Description: The Berkeley DB embedded database system
+
+Package: elfutils-glibc
+Version: 0.192-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 4024
+Depends: libarchive-glibc, libasm-glibc, libdebuginfod-glibc, libdw-glibc, libmicrohttpd-glibc, libsqlite-glibc, libelf-glibc (= 0.192-1)
+Filename: pool/main/elfutils-glibc_0.192-1_aarch64.deb
+Size: 476332
+MD5sum: 976bffeac2aedbd01d45cce56f31d519
+SHA1: 76352c13eb4ea40dbc6723c375853446944743fd
+SHA256: 626de258da7bcd350a9068b6749355de39014e6a1ff88f304256eb2142ca4a22
+Homepage: https://sourceware.org/elfutils/
+Description: A collection of utilities to read, create and modify ELF binary files
+
+Package: gdbm-glibc
+Version: 1.26-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 944
+Depends: readline-glibc
+Filename: pool/main/gdbm-glibc_1.26-1_aarch64.deb
+Size: 175320
+MD5sum: c9ce49d18fb0b72f2e548dcaa4faa1fa
+SHA1: 458245f3b3f302f2ca5611f1f6043d24fb206dad
+SHA256: f89c9b6c059d1736f0ffc2ba6ef399dfa480d4dd04425c719370eb0972847513
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Description: Library of database functions that use extensible hashing
+
+Package: glibc
+Version: 2.42
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 70980
+Depends: linux-api-headers-glibc
+Recommends: glibc-runner
+Filename: pool/main/glibc_2.42_aarch64.deb
+Size: 9591868
+MD5sum: 75a29dd851c3d6b4bc40a5c7b1b1eaba
+SHA1: feb4612894f30ef89525d65163c754034df234f4
+SHA256: 02b9d5970c2aefa8efae5b0952992deb1ae1e7b738839c59b71b17505ef4f1c8
+Homepage: https://www.gnu.org/software/libc/
+Description: GNU C Library
+
+Package: glibc-runner
+Version: 2.0-3
+Architecture: all
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 92
+Depends: glibc, termux-exec-glibc, bash-glibc, bash-glibc, patchelf-glibc, binutils-glibc
+Recommends: coreutils-glibc, util-linux-glibc
+Suggests: strace-glibc
+Filename: pool/main/glibc-runner_2.0-3_all.deb
+Size: 3780
+MD5sum: 508ab6db393981c83c88b4c487ed9666
+SHA1: 655836ad705d18200d2ed9f9426599b2d65b49f7
+SHA256: 727994cc5a59296f7fe4cc018e35922c3cf41ab02bae2ba2dce7f9157faa08b8
+Homepage: https://github.com/termux-pacman/glibc-packages/wiki/About-glibc-runner-(grun)
+Description: Tool for convenient use of Glibc
+
+Package: glibc32
+Version: 2.42
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 27524
+Depends: glibc (= 2.42)
+Filename: pool/main/glibc32_2.42_aarch64.deb
+Size: 3134324
+MD5sum: 98d0ecf3176f107d40a503b6f4172ac9
+SHA1: 2d1a4162f34f4fa3b4cc252d0a1309ae0a70190f
+SHA256: 0e87395f0ba05ac6860ffbc14e9a779d510359bfcb00b68068b9452ab79481e1
+Homepage: https://www.gnu.org/software/libc/
+Description: GNU C Library (32-bit)
+
+Package: gnutls-glibc
+Version: 3.8.9
+Architecture: aarch64
+Maintainer: @termux-pacmam
+Installed-Size: 1672
+Depends: libgnutls-glibc (= 3.8.9)
+Filename: pool/main/gnutls-glibc_3.8.9_aarch64.deb
+Size: 247472
+MD5sum: c25c63a52524f5f067786ab088269586
+SHA1: 153dc86cef5522111684f852174afca212139a8e
+SHA256: 3ca36512cf3b2a0cf84f0b0bc4a90445347d144c3a1582e7193038ee5d724598
+Homepage: https://www.gnutls.org/
+Description: Commandline utilities for interfacing with the gnutls library
+
+Package: json-c-glibc
+Version: 0.18
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 384
+Depends: glibc
+Filename: pool/main/json-c-glibc_0.18_aarch64.deb
+Size: 56708
+MD5sum: c7cddd873576ac8b202f3be6225d18f4
+SHA1: 815dde92693c1b64fafc8b732b5c29f24dc67ac6
+SHA256: 41aa4ebb1ea886a63e0c23b4f8f1890cf0d7375d120798cd661a91bc815b286c
+Homepage: https://github.com/json-c/json-c/wiki
+Description: A JSON implementation in C
+
+Package: krb5-glibc
+Version: 1.21.3
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 6772
+Depends: libverto-glibc
+Filename: pool/main/krb5-glibc_1.21.3_aarch64.deb
+Size: 1182804
+MD5sum: d1a9ed9dff4ff7a94cb6b7aab3fa17af
+SHA1: 63d029db1f0b20504ccadfc2c902c0d2ecfedd77
+SHA256: ea43949818341dff7397fe2c8b50458c71220c0cc84e7651bd7dffe363e64fe8
+Homepage: https://web.mit.edu/kerberos
+Description: The Kerberos network authentication system
+
+Package: lemon-glibc
+Version: 3.49.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 296
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/lemon-glibc_3.49.1_aarch64.deb
+Size: 62592
+MD5sum: 73f7885e8842249cd2f704cec467da13
+SHA1: 3c55b6fafaf6bdd9f180ca1e0a78f144684cbd75
+SHA256: 7cb4122dfd5c52bcf9c8f9a6351c73376303ef79dcdcf73f2509d7ff781dfb3a
+Homepage: https://www.sqlite.org
+Description: A parser generator
+
+Package: libacl-glibc
+Version: 2.3.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 664
+Depends: attr-glibc
+Filename: pool/main/libacl-glibc_2.3.1_aarch64.deb
+Size: 126300
+MD5sum: c105eacf3754023e6cb91f5551bbd7e4
+SHA1: 293fc55a2c00bec57f03461cdcc4241aba5cbb26
+SHA256: c26ff098af9e280897df17870fc7e7172e45c951f719128d1c4c6ecad676b0c7
+Homepage: https://savannah.nongnu.org/projects/acl/
+Description: Access control list utilities, libraries and headers
+
+Package: libarchive-glibc
+Version: 3.7.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1352
+Depends: libacl-glibc, libbz2-glibc, libexpat-glibc, liblz4-glibc, openssl-glibc, liblzma-glibc, zlib-glibc, zstd-glibc
+Filename: pool/main/libarchive-glibc_3.7.7_aarch64.deb
+Size: 452660
+MD5sum: 04055db47e76d7113cd5750c4d7b4323
+SHA1: 082750bc4ea86e0c233eda1bd16fda7911923ee7
+SHA256: d1bd175237d4549a7be36f329c1c2145034d88bd8bd38000534a2286c2f57ffa
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library
+
+Package: libasm-glibc
+Version: 0.192-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 132
+Depends: libdw-glibc, libelf-glibc (= 0.192-1)
+Filename: pool/main/libasm-glibc_0.192-1_aarch64.deb
+Size: 16136
+MD5sum: f6c2c97f7650f6755a6668b4c4aa2712
+SHA1: 687acc5d0e4f104032b445a115fe97aa8d7ec457
+SHA256: 9f775918f385b157aef69b7be75f4ed4185402ef58a1939ef90997c656376fe9
+Homepage: https://sourceware.org/elfutils/
+Description: Library to assemble and disassemble instructions
+
+Package: libbz2-glibc
+Version: 1.0.8-3
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 212
+Depends: glibc, bash-glibc
+Filename: pool/main/libbz2-glibc_1.0.8-3_aarch64.deb
+Size: 32032
+MD5sum: 4f2af2fe794062598d09d693e7f25a58
+SHA1: 036b1abe21f5267d7829071f2321c173df065ad3
+SHA256: 1d7e39c6f9a6bd5c7a4fdd5c91a2677d1a04eedb77306b531b74e739c308f168
+Homepage: http://www.bzip.org/
+Description: BZ2 format compression library
+
+Package: libcap-ng-glibc
+Version: 0.8.5
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 624
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/libcap-ng-glibc_0.8.5_aarch64.deb
+Size: 41972
+MD5sum: 8e241e989c01621b3e6e361570355ac8
+SHA1: 58f3af910286facc2082917f653e99f353249856
+SHA256: d1272b7af88da7b58a4eb62602acc84288ea15c6e4088e670e89a88f0d7a6e33
+Homepage: https://people.redhat.com/sgrubb/libcap-ng/
+Description: Library making programming with POSIX capabilities easier than traditional libcap
+
+Package: libcurl-glibc
+Version: 8.12.1
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 3488
+Depends: libnghttp2-glibc, libssh2-glibc, openssl-glibc (>= 3.0.3), krb5-glibc, brotli-glibc, libpsl-glibc
+Filename: pool/main/libcurl-glibc_8.12.1_aarch64.deb
+Size: 986892
+MD5sum: e7e32cee4683178f017a284a9d0d8df7
+SHA1: 09b85457334fa4c7336a3636b8a805672870c946
+SHA256: f62ec2fcbe9a4c54b6dbce16d057497674dce9facbe72e8a9d0d37b57778a613
+Homepage: https://curl.se/
+Description: Easy-to-use client-side URL transfer library
+
+Package: libdb-glibc
+Version: 18.1.40
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 4928
+Depends: gcc-libs-glibc, bash-glibc
+Filename: pool/main/libdb-glibc_18.1.40_aarch64.deb
+Size: 981452
+MD5sum: f6529f850ae53c9c73383d6c89456b2b
+SHA1: ed0c5229a5b28911ca6dd6c2c5d3162ad05c80f2
+SHA256: 7c33aa5215c1967fc73ae952b56eeb3fc1b02f552483b054f452eea9af691919
+Homepage: https://www.oracle.com/database/berkeley-db
+Description: The Berkeley DB embedded database system (library)
+
+Package: libdebuginfod-glibc
+Version: 0.192-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 200
+Depends: libcurl-glibc, json-c-glibc, libelf-glibc (= 0.192-1)
+Filename: pool/main/libdebuginfod-glibc_0.192-1_aarch64.deb
+Size: 23488
+MD5sum: a287b8dfbf1eb4610c628abbb548def8
+SHA1: 7517d33fc7af97c3bcf21ecdbb62430514049af0
+SHA256: 4f106c364de2cdfec8655adb86a1fac841071b09c7304ea64602fcab14e7aa1e
+Homepage: https://sourceware.org/elfutils/
+Description: Library for debuginfod
+
+Package: libdw-glibc
+Version: 0.192-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1048
+Depends: libbz2-glibc, liblzma-glibc, libelf-glibc (= 0.192-1)
+Filename: pool/main/libdw-glibc_0.192-1_aarch64.deb
+Size: 256784
+MD5sum: df3d780e7b61245ea67227a2b4497c04
+SHA1: 1f6293b6c2eb31df5d9770f924e07b7a72e4a836
+SHA256: 5422c694df894bf0fd247ad03a754d1c47ce644ccf8fa5c0ebb2f2f67d4e2520
+Homepage: https://sourceware.org/elfutils/
+Description: Library to read DWARF information
+
+Package: libelf-glibc
+Version: 0.192-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 880
+Depends: zlib-glibc, zstd-glibc
+Filename: pool/main/libelf-glibc_0.192-1_aarch64.deb
+Size: 170804
+MD5sum: 463661a02c6ae53b095c2cbe55b78078
+SHA1: e6d21b91e95ebdc165820b165fa1417cf789fca1
+SHA256: 33096e59b7e0b8af7fd09da47b7c138101e85360de3a753dd69647b2aec557e7
+Homepage: https://sourceware.org/elfutils/
+Description: ELF object file access library
+
+Package: libevent-glibc
+Version: 2.1.12
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1672
+Depends: openssl-glibc
+Filename: pool/main/libevent-glibc_2.1.12_aarch64.deb
+Size: 249228
+MD5sum: 155b7cee35c500629260832eb18f21f4
+SHA1: eb59cd7e26831fc8bdcd1c29adea66e4a0d90b82
+SHA256: 6e76f18c0cf9fe25d5c6f20532a04d130c92d7b17224e9ab1df1716b163bb058
+Homepage: https://libevent.org/
+Description: Library that provides asynchronous event notification
+
+Package: libexpat-glibc
+Version: 2.6.4
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 552
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/libexpat-glibc_2.6.4_aarch64.deb
+Size: 107228
+MD5sum: d140470ddf14472b971defbca8db1aed
+SHA1: b1328062b9369e48401648cf89e5ffe265aed51b
+SHA256: a18ea6a2d93f972996c2787be1bab89ab0a82af2b4ce0efaebeb74e1d666ca4f
+Homepage: https://libexpat.github.io/
+Description: An XML parser library
+
+Package: libffi-glibc
+Version: 3.4.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 232
+Depends: glibc
+Filename: pool/main/libffi-glibc_3.4.7_aarch64.deb
+Size: 34776
+MD5sum: abd13af76d22c5bea895fefbec98b386
+SHA1: 09fd3c76c65a4ef9fac1804803db571c31a0a0b2
+SHA256: d2c01867c784a529bc41c97c1ea290265824244ed56bf504634d3a178015b3af
+Homepage: https://sourceware.org/libffi/
+Description: Library providing a portable, high level programming interface to various calling conventions
+
+Package: libgmp-glibc
+Version: 6.3.0-2
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1264
+Depends: gcc-libs-glibc
+Filename: pool/main/libgmp-glibc_6.3.0-2_aarch64.deb
+Size: 345044
+MD5sum: 175b0f48fe43370f5acc7a4865484fe4
+SHA1: 56ba4f5de91c3ec576b48c405c04692d6f6a3a15
+SHA256: ce7e2d11712e49d09cc04fa6bd6c951cfc4544bf2cd10725ee756016fd38afc4
+Homepage: https://gmplib.org/
+Description: Library for arbitrary precision arithmetic
+
+Package: libgnutls-glibc
+Version: 3.8.9
+Architecture: aarch64
+Maintainer: @termux-pacmam
+Installed-Size: 10580
+Depends: libgmp-glibc, libtasn1-glibc, readline-glibc, zlib-glibc, libnettle-glibc, p11-kit-glibc, libidn2-glibc, zstd-glibc, libunistring-glibc, brotli-glibc
+Filename: pool/main/libgnutls-glibc_3.8.9_aarch64.deb
+Size: 2260400
+MD5sum: fa3c485d8b52a792299d3b598b3b772d
+SHA1: 1bd71915198b21b26ccf4f9f6a38315d8353d64a
+SHA256: 342bdb06b28f6d731b4c0f173f54c951ffe1a8b3d873e7644e1cd5a83f8b6a5d
+Homepage: https://www.gnutls.org/
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+
+Package: libidn2-glibc
+Version: 2.3.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 500
+Depends: libunistring-glibc, gcc-libs-glibc
+Filename: pool/main/libidn2-glibc_2.3.7_aarch64.deb
+Size: 110580
+MD5sum: 813f9afdf27109175b059a82b72a4e18
+SHA1: 8970976160a878cf773f2697bbc24e8182b014e4
+SHA256: 6dd621a1ee90ae6efd20ba9396a34bd778c65b1457881ca2ffc8c8b8400a2b0d
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Free software implementation of IDNA2008, Punycode and TR46
+
+Package: libjansson-glibc
+Version: 2.14
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 168
+Depends: glibc
+Filename: pool/main/libjansson-glibc_2.14_aarch64.deb
+Size: 32364
+MD5sum: 895610b341b317efa3a0b445f7adb8cb
+SHA1: a77959a2dd8c88f5f118d1478aadff46c2d2d2dd
+SHA256: 4c461d4cbfb9ae8999357003ff066c45ab42d997f54aef6b0bae0477ad294641
+Homepage: http://www.digip.org/jansson/
+Description: C library for encoding, decoding and manipulating JSON data
+
+Package: liblz4-glibc
+Version: 1.10.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 380
+Depends: glibc
+Filename: pool/main/liblz4-glibc_1.10.0_aarch64.deb
+Size: 91480
+MD5sum: 39ed6941e9d0e018056295354f1aa513
+SHA1: ad7f60c81d902c7ee36eab57e7e655706b50bad4
+SHA256: 77f781e69ae2698fcc1fe343bfe9c9aa18c0f5c5dbc67ba41ff5c12362950393
+Homepage: https://lz4.github.io/lz4/
+Description: Fast LZ compression algorithm library
+
+Package: liblzma-glibc
+Version: 5.6.4
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 920
+Depends: glibc, bash-glibc
+Filename: pool/main/liblzma-glibc_5.6.4_aarch64.deb
+Size: 204540
+MD5sum: e63ee3854be51bf642d4ec72a3ec1422
+SHA1: ee251b7c86bf21665157dad735bcde7fd9923d6b
+SHA256: 3fb00e080063ec1983ee7fa1e9db8c0c04ba6312f5d2c607e79deaebe7294995
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+
+Package: libmicrohttpd-glibc
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1116
+Depends: libgnutls-glibc, libgmp-glibc-static
+Filename: pool/main/libmicrohttpd-glibc_1.0.1-1_aarch64.deb
+Size: 230392
+MD5sum: 8abf43fcfb9a86558c40bc87f998fac3
+SHA1: 1c2bd3c8160b165a9450786d426ded317868e297
+SHA256: 3dfbc57ef614747ac85bd62c8d137a9da8e8233fa436c9481834487c00752236
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application
+
+Package: libnettle-glibc
+Version: 3.10.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 3548
+Depends: libgmp-glibc, gcc-libs-glibc
+Filename: pool/main/libnettle-glibc_3.10.1_aarch64.deb
+Size: 878372
+MD5sum: c921b0c4bd70343b473816923fa18289
+SHA1: e3850c6db64483d2fbbe5b655b1eec9009732430
+SHA256: dcb250b9427b783242152cd492fd44b578fb3deec019924e67d5388cc34a414c
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Cryptographic library that is designed to fit easily in more or less any context
+
+Package: libnghttp2-glibc
+Version: 1.65.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 660
+Depends: glibc
+Filename: pool/main/libnghttp2-glibc_1.65.0_aarch64.deb
+Size: 149588
+MD5sum: 87c45a88c41b8f70ce385b64e3c0ead2
+SHA1: d20e7b4f072aa132cdb98ef0891efe8d85c555be
+SHA256: adad6af1b5a0dec23ebdd550a73dd06de6bed0b422b2eddea3a9ad026d1245e9
+Homepage: https://nghttp2.org/
+Description: nghttp HTTP 2.0 library
+
+Package: libpam-glibc
+Version: 1.7.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 6128
+Depends: libxcrypt-glibc, gcc-libs-glibc
+Filename: pool/main/libpam-glibc_1.7.0_aarch64.deb
+Size: 502736
+MD5sum: 6a1ea836dc20108289ad847d5d06ac6f
+SHA1: c98b71d4afb3287d33af3bf8b5af5c94b12e9f76
+SHA256: 6e9c8a1e4e9252be6b601c907e2e4dd89f6622c87327f0bb76c9091270f45d3b
+Homepage: http://linux-pam.org
+Description: PAM (Pluggable Authentication Modules) library
+
+Package: libpsl-glibc
+Version: 0.21.5
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 328
+Depends: libidn2-glibc, libunistring-glibc
+Filename: pool/main/libpsl-glibc_0.21.5_aarch64.deb
+Size: 66536
+MD5sum: 6d0db2ad48af9bc384f9e8721c2ffd2a
+SHA1: d40af2b764afd173e259b6cd906a1da27e839bde
+SHA256: cf22b6b28c0f15b0cb7fd3744f74a501da5b659b103151a23e2546d2b914833e
+Homepage: https://github.com/rockdaboot/libpsl
+Description: Public Suffix List library
+
+Package: libsqlite-glibc
+Version: 3.49.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 2340
+Depends: zlib-glibc
+Filename: pool/main/libsqlite-glibc_3.49.1_aarch64.deb
+Size: 775408
+MD5sum: 30f61274874d1e2286cb6247fff6d0fd
+SHA1: bc6fe2df195df0dd745d2ba570072c9a1bb4081a
+SHA256: eb4e2fa652d1fcb0baf6a4facec9505614e7584a2cdd7f20faeed590f4b22f43
+Homepage: https://www.sqlite.org
+Description: A C library that implements an SQL database engine
+
+Package: libssh2-glibc
+Version: 1.11.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1284
+Depends: openssl-glibc, zlib-glibc
+Filename: pool/main/libssh2-glibc_1.11.1_aarch64.deb
+Size: 237480
+MD5sum: e1e77bb85f340e807fdaf54bf31c66c4
+SHA1: ee05de38c03ab35b7b09a6d6f78ca6bb5f311ed5
+SHA256: f65a6193b833f564bfb9cd4dcf354468e671504f94077bb3698254f0df6d8683
+Homepage: https://www.libssh2.org
+Description: Client-side library implementing the SSH2 protocol
+
+Package: libtasn1-glibc
+Version: 4.20.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 724
+Depends: glibc
+Filename: pool/main/libtasn1-glibc_4.20.0_aarch64.deb
+Size: 110808
+MD5sum: 42bd00257cd271276e876849cc2af714
+SHA1: 2d05e55817b43615aa4be0ad813b022b8bc4e930
+SHA256: 33f28abfa9bf749916ff1fa35be3054d7cc80eb230fcb41f08d012d017cff555
+Homepage: https://www.gnu.org/software/libtasn1/
+Description: This is GNU Libtasn1, a small ASN.1 library
+
+Package: libunistring-glibc
+Version: 1.3
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 3376
+Depends: glibc
+Filename: pool/main/libunistring-glibc_1.3_aarch64.deb
+Size: 559168
+MD5sum: df0b335eb63212102521d6c8ce80d113
+SHA1: b3c890b791fa72f19d9b1c47e3ad8292fb8217a7
+SHA256: a58f63fe5a4fecc026036efa3b311206120dbc49d7837d3d5b41b79cee24853c
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Library for manipulating Unicode strings and C strings
+
+Package: libunwind-glibc
+Version: 1.8.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 824
+Depends: zlib-glibc, liblzma-glibc
+Filename: pool/main/libunwind-glibc_1.8.1_aarch64.deb
+Size: 134916
+MD5sum: 12190a71f09f3e1712112fd6554c4446
+SHA1: b5f5aee2c3065acd78d7ea162ba00dd5284450b9
+SHA256: c655d255e42a51648a5e8121e60e12405323e275d5d9ef10bb773fa59506fb8f
+Homepage: https://www.nongnu.org/libunwind/
+Description: Determine and manipulate the call-chain of a program
+
+Package: libverto-glibc
+Version: 0.3.2
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 252
+Depends: libevent-glibc
+Filename: pool/main/libverto-glibc_0.3.2_aarch64.deb
+Size: 18348
+MD5sum: c800539ab298d0b0e26156d455e275a7
+SHA1: 8af9269b9c8ba94454e42dbb8062a1d08fc33ca1
+SHA256: 07897a8d996dcae2958785918326ee9e40496697b1cc718fc8679deba458de21
+Homepage: https://github.com/latchset/libverto
+Description: Main event loop abstraction library
+
+Package: libxcrypt-glibc
+Version: 4.4.38
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 336
+Depends: glibc
+Filename: pool/main/libxcrypt-glibc_4.4.38_aarch64.deb
+Size: 83616
+MD5sum: 9c05ec89dd4db492940068725e316735
+SHA1: d01d9adb1aab25dd2b8bfa3e3f4efa31ebef1e77
+SHA256: d92a60a3a928d35b008d69b144da3d1753b0388a03efe3ec5d3293e534771ed9
+Homepage: https://github.com/besser82/libxcrypt
+Description: Modern library for one-way hashing of passwords
+
+Package: linux-api-headers-glibc
+Version: 6.18.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 8736
+Filename: pool/main/linux-api-headers-glibc_6.18.7_aarch64.deb
+Size: 1254492
+MD5sum: 45748855a789b8214b37c96799748a7e
+SHA1: bdb26afa52598466eefbaff7c4ae97f453117dc7
+SHA256: d9caad145346e4b98520efb2e68144d9048b84bd9b76b5f7927c1dd11125c347
+Homepage: https://www.gnu.org/software/libc/
+Description: Kernel headers sanitized for use in userspace
+
+Package: lz4-glibc
+Version: 1.10.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 352
+Depends: gcc-libs-glibc, liblz4-glibc (= 1.10.0)
+Filename: pool/main/lz4-glibc_1.10.0_aarch64.deb
+Size: 116612
+MD5sum: c90f14310324bf22cc9a73c681eac7ed
+SHA1: 4114fee1756a824d2073cf88d7e3fcf965ff86b5
+SHA256: 6fb8f7c4852cf6d0361554f3f678038d6db3cffe4030578f530e1a3c0709c02f
+Homepage: https://lz4.github.io/lz4/
+Description: Fast LZ compression algorithm tool
+
+Package: ncurses-glibc
+Version: 6.6.20260307+really6.5.20250830
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 13912
+Depends: glibc, gcc-libs-glibc
+Filename: pool/main/ncurses-glibc_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 923240
+MD5sum: 117dfdb2dc4b35d90b4892b26cd9d393
+SHA1: 1c20258f7a6921f32a996d0348fbee4a75bc7cd3
+SHA256: 3e1dac1796b6151dbbc326dea16a78ec2028c60db8f40d4f5e32ba416693322e
+Homepage: https://invisible-island.net/ncurses/ncurses.html
+Description: System V Release 4.0 curses emulation library
+
+Package: ncurses-ui-libs-glibc
+Version: 6.6.20260307+really6.5.20250830
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 368
+Depends: ncurses-glibc (= 6.6.20260307+really6.5.20250830)
+Filename: pool/main/ncurses-ui-libs-glibc_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 48424
+MD5sum: 5704437c77b97baa609492fa10521919
+SHA1: 6efef2136928b47d721368f547f728e10304f5d5
+SHA256: 842ad0f7de964eb6b551679fd32df659ed0c57ed29c3680172aeef36c40b57d1
+Homepage: https://invisible-island.net/ncurses/ncurses.html
+Description: Libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-utils-glibc
+Version: 6.6.20260307+really6.5.20250830
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 508
+Depends: ncurses-glibc (= 6.6.20260307+really6.5.20250830)
+Filename: pool/main/ncurses-utils-glibc_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 99272
+MD5sum: 95cf5f63f1c3e6f6a9485e33adc5f89e
+SHA1: 78eb0f6af482044ff7dc6f4c84cbb1f01331ca12
+SHA256: 0ec3198347006f212bba18320f65d335e033daf81e28977171ade463b4b1846f
+Homepage: https://invisible-island.net/ncurses/ncurses.html
+Description: Tools for working with terminals
+
+Package: nettle-glibc
+Version: 3.10.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 908
+Depends: libnettle-glibc (= 3.10.1)
+Filename: pool/main/nettle-glibc_3.10.1_aarch64.deb
+Size: 131552
+MD5sum: 8de39ae4af60ac14db0daafc697fad5b
+SHA1: 50959f438c767456c6b9219d0176ed5403b48c65
+SHA256: ed3dfd42b500248d56b06e79c0935e824a80325b0e879fdc327a4aa87c5e8e2b
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Low level cryptographic tools
+
+Package: openssl-glibc
+Version: 3.4.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 16360
+Depends: ca-certificates-glibc, resolv-conf-glibc, zlib-glibc, gcc-libs-glibc
+Filename: pool/main/openssl-glibc_3.4.1_aarch64.deb
+Size: 5578068
+MD5sum: 719238749b7122f5cf36193715b8441a
+SHA1: 0de4ea08764c29bee96a57a926030fa62d1c4d09
+SHA256: 8f367e834157a99c33c22f32ad5929637b776e9d85b32bd6ba2cf92f1e70683c
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: p11-kit-glibc
+Version: 0.25.5
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 20000
+Depends: libffi-glibc, libtasn1-glibc
+Filename: pool/main/p11-kit-glibc_0.25.5_aarch64.deb
+Size: 3642712
+MD5sum: 53c98371fd88a92e0133f14a7387d1f8
+SHA1: d2a78c37fa78f2427ef23eaadc74dd67dc210cc3
+SHA256: 249bb6c2954084621afdb8bb707e1d7fd32cfc81e48da768dda532277057897e
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: Provides a way to load and enumerate PKCS#11 modules
+
+Package: patchelf-glibc
+Version: 0.18.0
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 412
+Depends: gcc-libs-glibc
+Filename: pool/main/patchelf-glibc_0.18.0_aarch64.deb
+Size: 93408
+MD5sum: 20c020a6a7bc084a9e022f8ffa192a4d
+SHA1: e7c6afc468b931a11ebbbc10050ccf36b2519f62
+SHA256: 02e9c096040e197edeed16abf21d9ab612a2a2b2939c17ed8124768650348a9b
+Homepage: https://nixos.org/patchelf.html
+Description: Utility to modify the dynamic linker and RPATH of ELF executables
+
+Package: publicsuffix-list-glibc
+Version: 2024.03.06
+Architecture: all
+Maintainer: @termux-pacman
+Installed-Size: 360
+Filename: pool/main/publicsuffix-list-glibc_2024.03.06_all.deb
+Size: 72948
+MD5sum: 1b4150b43e13b47887806672c8ede3a5
+SHA1: 299bad01fe50ef7fb4856a3c1e31adbd8f7171e2
+SHA256: 6bd9fcc1f8094ad65756a71be18af5fb46a09628d273122c1f01f639aeccb636
+Homepage: https://github.com/publicsuffix/list
+Description: Cross-vendor public domain suffix database
+
+Package: pzstd-glibc
+Version: 1.5.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 168
+Depends: glibc, zstd-glibc (= 1.5.7)
+Filename: pool/main/pzstd-glibc_1.5.7_aarch64.deb
+Size: 38660
+MD5sum: 2f477e6e6152a03c0e5f1d998a213fca
+SHA1: db13ca10f05db2936ed12831a154f2f95099bd66
+SHA256: ceb38ca1a8f0450bafa1462936622dc699245754033bff8ee19b435f77a41775
+Homepage: https://github.com/facebook/zstd
+Description: A Pigz-like tool for Zstandard
+
+Package: readline-glibc
+Version: 8.2.13
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1336
+Depends: ncurses-glibc
+Filename: pool/main/readline-glibc_8.2.13_aarch64.deb
+Size: 268284
+MD5sum: 810df5f397cd5215bc6846011cdc435c
+SHA1: 22568e3cf02ae928c1bb2b5664d22522b83fed73
+SHA256: e07abd581e5f2b866848f4f2d88df594ed2891e553a840c249b3b2db2e7cbb1b
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Library that allow users to edit command lines as they are typed in
+
+Package: sqlite-analyzer-glibc
+Version: 3.49.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1636
+Depends: tcl-glibc, zlib-glibc
+Filename: pool/main/sqlite-analyzer-glibc_3.49.1_aarch64.deb
+Size: 641812
+MD5sum: 5c0e428d00af0fcb18d787dfbd6bb758
+SHA1: c5350c66c1378e7c61f5b3bfa47a93e4033862bb
+SHA256: da57810c44b56e3ecaea0eac1330c0d79c2be4f82563904ccf240b1a758d6c46
+Homepage: https://www.sqlite.org
+Description: An analysis program for sqlite3 database files
+
+Package: sqlite-glibc
+Version: 3.49.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 10060
+Depends: readline-glibc, zlib-glibc
+Filename: pool/main/sqlite-glibc_3.49.1_aarch64.deb
+Size: 1211088
+MD5sum: 0791724d79e33a15cbe9e9c9ebcbcc67
+SHA1: 4d6fcf47ad8b0415657b62295dfc01f5a606c07f
+SHA256: 08e38be148ea1804d092f376e0fc4033c6a40744dbb1b94420cd0a3c6f613dbf
+Homepage: https://www.sqlite.org
+Description: Command line shell for SQLite
+
+Package: sqlite-tcl-glibc
+Version: 3.49.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1708
+Depends: tcl-glibc, zlib-glibc
+Filename: pool/main/sqlite-tcl-glibc_3.49.1_aarch64.deb
+Size: 651084
+MD5sum: 8098d127b575575cc501bc6a9bcedeaa
+SHA1: 82f1d910ff0b29b9de29b6ad873a449af7871b57
+SHA256: 24eeebb972c6d7c8d3ccb05a95ed2fb5fc9a48386ac391d5c88e7dce73e36956
+Homepage: https://www.sqlite.org
+Description: Sqlite Tcl Extension Architecture (TEA)
+
+Package: tcl-glibc
+Version: 8.6.14
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 8808
+Depends: zlib-glibc, gcc-libs-glibc
+Filename: pool/main/tcl-glibc_8.6.14_aarch64.deb
+Size: 2445608
+MD5sum: 2fc57609fc0caac1e34e28af577e4411
+SHA1: 1ca8e4af8ca9a4be6d79b651f78acfe160e236d1
+SHA256: 2ae5ff4b4315e9090b856b235e7faa467d6c9873c345a58eb1c1676323a5c3b5
+Homepage: https://www.tcl.tk/
+Description: Powerful but easy to learn dynamic programming language
+
+Package: termux-exec-glibc
+Version: 1:1.0
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 120
+Depends: glibc
+Filename: pool/main/termux-exec-glibc_1:1.0_aarch64.deb
+Size: 4544
+MD5sum: f8ee4ab2707bc36b6007db15a5344a39
+SHA1: 65137ba81fc6d2bd9dd84f2875acf4af0381d404
+SHA256: 08e83fb12882391bed14040218d3a1a02a1c1863cf48dd1e2a392d1f8acb7366
+Homepage: https://github.com/termux/termux-exec
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+
+Package: xz-utils-glibc
+Version: 5.6.4
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux-pacman
+Installed-Size: 492
+Depends: gcc-libs-glibc, liblzma-glibc (= 5.6.4)
+Filename: pool/main/xz-utils-glibc_5.6.4_aarch64.deb
+Size: 78192
+MD5sum: 7963992c6ccf166460faaea5ea335266
+SHA1: f395d5ee8e6c2882ccdd71b613678fb49fdae932
+SHA256: 60d8d5215af2fd9823a62abc835b563c0caa185269f4f5f88c4b1c48d0a35852
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression tools
+
+Package: zlib-glibc
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 336
+Depends: glibc
+Filename: pool/main/zlib-glibc_1.3.1_aarch64.deb
+Size: 74880
+MD5sum: 6e87ea3b39cb5e2e0c90202ddedc5d3c
+SHA1: fa7f8058ef4f764e7f12d6f3e81b6866d0576607
+SHA256: 2e8d59a29f868cc824dde790b985cca3b04c4f74cf2cfe8540b0402608715b0b
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
+Package: zstd-glibc
+Version: 1.5.7
+Architecture: aarch64
+Maintainer: @termux-pacman
+Installed-Size: 1676
+Depends: liblzma-glibc, zlib-glibc, liblz4-glibc, gcc-libs-glibc
+Filename: pool/main/zstd-glibc_1.5.7_aarch64.deb
+Size: 429788
+MD5sum: 6b48ab1c44ea995e190f49ca16df1584
+SHA1: a2746c29ec02cb485b1501cae145e2d0a4ca7aab
+SHA256: 20db91c84b1dcf51adb0bb9c241375021c4a12574990560b0125e380960d6ce0
+Homepage: https://github.com/facebook/zstd
+Description: Zstandard compression
+
